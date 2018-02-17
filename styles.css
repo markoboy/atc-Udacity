@@ -1,0 +1,97 @@
+/* Tags elements styles
+   ======================================*/
+
+body {
+    font: 95% Arial, Helvetica, sans-serif;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 150%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 0.1));
+    color: white;
+    animation: colorful 6s linear 1s infinite;
+    text-shadow: 3px 2px 1px black;
+}
+
+/* Creates the animation for the colorful animation */
+@keyframes colorful {
+    15%   {background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 0.1));
+        color: red;
+}
+    25%  {background: linear-gradient(90deg, rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+        color: purple;
+}
+    50%  {background: linear-gradient(90deg, rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 0, 0, 0.1));
+        color: blue;
+}
+    75%  {background: linear-gradient(90deg, rgba(0, 0, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1));
+        color: yellow;
+}
+    100% {background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 0, 0, 0.1), rgba(0, 255, 0, 0.1), rgba(0, 0, 255, 0.1));
+        color: green;
+}
+}
+
+.container img {
+    width: 300px;
+    height: 200px;
+    border: 3px inset rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(200, 200, 0, 0.6),
+                1px 2px 10px 2px rgba(200, 0, 200, 0.4);
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.content span {
+    font-weight: bolder;
+}
+
+/* Classes elements styleshee
+   =====================================*/
+
+/* Card container */
+.container {
+    width: 330px;
+    padding: 0 10px 0;
+    border: 3px ridge rgba(200, 200, 0.5);
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px 1px rgba(200, 200, 0, 0.5),
+                10px 10px 15px 1px rgba(200, 0, 200, 0.3);
+    background: no-repeat url('https://lh3.googleusercontent.com/abEJWAFZ_d0GXvl5k24jU-zueapIxjnkM6qpUSqa8XBnA4elIWCj_Qayb5f97Dl1jAw=w300');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Card's content container */
+.content {
+    box-sizing: content-box;
+    padding: 0 10px 0;
+    margin: 10px 1px 10px;
+    background: linear-gradient(90deg, rgba(204, 131, 36, 0.4) 2%, rgba(204, 131, 36, 0.8) 10%, rgba(204, 131, 36, 0.85), rgba(204, 131, 36, 0.8) 96%, rgba(204, 131, 36, 0.4) 100%);
+    border: 2px groove rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px rgba(200, 200, 0, 0.6),
+                1px 2px 10px 2px rgba(200, 0, 200, 0.4);
+}
+
+/* Interesting facts container */
+.facts {
+    font-style: italic;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Description container */
+.desc {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
