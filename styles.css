@@ -61,7 +61,7 @@ body {
 /* Card container */
 .container {
     width: 330px;
-    padding: 0 10px 0;
+    padding: 2px 10px 2px;
     border: 3px ridge rgba(200, 200, 0.5);
     border-radius: 20px;
     box-sizing: border-box;
@@ -77,6 +77,7 @@ body {
     box-sizing: content-box;
     padding: 0 10px 0;
     margin: 10px 1px 10px;
+    background-color: rgba(204, 131, 36, 0.8); /* For browsers that doesnt support gradient */
     background: linear-gradient(90deg, rgba(204, 131, 36, 0.4) 2%, rgba(204, 131, 36, 0.8) 10%, rgba(204, 131, 36, 0.85), rgba(204, 131, 36, 0.8) 96%, rgba(204, 131, 36, 0.4) 100%);
     border: 2px groove rgba(0, 0, 0, 0.6);
     border-radius: 10px;
