@@ -14,4 +14,4 @@ This is the first project in Front-End Nanodegree Program provided by [Udacity](
 Through this project I was able to understand HTML and CSS better and experience with the elements and styles in order to have the desired outcome. Even if this is a realy simple project, I am really happy with my achievement as this is my first step to becoming what I want, `a web-developer`.
 
 # License #
-[MIT License](.../LICENSE.txt)
+[MIT License](/LICENSE.txt)
